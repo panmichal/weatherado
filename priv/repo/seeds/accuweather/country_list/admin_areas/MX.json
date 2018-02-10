@@ -1,0 +1,290 @@
+[
+  {
+    "ID": "AGU",
+    "LocalizedName": "Aguascalientes",
+    "EnglishName": "Aguascalientes",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "BCN",
+    "LocalizedName": "Baja California",
+    "EnglishName": "Baja California",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "BCS",
+    "LocalizedName": "Baja California Sur",
+    "EnglishName": "Baja California Sur",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "CAM",
+    "LocalizedName": "Campeche",
+    "EnglishName": "Campeche",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "CHH",
+    "LocalizedName": "Chihuahua",
+    "EnglishName": "Chihuahua",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "CHP",
+    "LocalizedName": "Chiapas",
+    "EnglishName": "Chiapas",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "COA",
+    "LocalizedName": "Coahuila",
+    "EnglishName": "Coahuila",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "COL",
+    "LocalizedName": "Colima",
+    "EnglishName": "Colima",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "DIF",
+    "LocalizedName": "México City",
+    "EnglishName": "México City",
+    "Level": 1,
+    "LocalizedType": "Federal District",
+    "EnglishType": "Federal District",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "DUR",
+    "LocalizedName": "Durango",
+    "EnglishName": "Durango",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "GRO",
+    "LocalizedName": "Guerrero",
+    "EnglishName": "Guerrero",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "GUA",
+    "LocalizedName": "Guanajuato",
+    "EnglishName": "Guanajuato",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "HID",
+    "LocalizedName": "Hidalgo",
+    "EnglishName": "Hidalgo",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "JAL",
+    "LocalizedName": "Jalisco",
+    "EnglishName": "Jalisco",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "MEX",
+    "LocalizedName": "México",
+    "EnglishName": "México",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "MIC",
+    "LocalizedName": "Michoacán",
+    "EnglishName": "Michoacán",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "MOR",
+    "LocalizedName": "Morelos",
+    "EnglishName": "Morelos",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "NAY",
+    "LocalizedName": "Nayarit",
+    "EnglishName": "Nayarit",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "NLE",
+    "LocalizedName": "Nuevo León",
+    "EnglishName": "Nuevo León",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "OAX",
+    "LocalizedName": "Oaxaca",
+    "EnglishName": "Oaxaca",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "PUE",
+    "LocalizedName": "Puebla",
+    "EnglishName": "Puebla",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "QUE",
+    "LocalizedName": "Querétaro",
+    "EnglishName": "Querétaro",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "ROO",
+    "LocalizedName": "Quintana Roo",
+    "EnglishName": "Quintana Roo",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "SIN",
+    "LocalizedName": "Sinaloa",
+    "EnglishName": "Sinaloa",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "SLP",
+    "LocalizedName": "San Luis Potosí",
+    "EnglishName": "San Luis Potosí",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "SON",
+    "LocalizedName": "Sonora",
+    "EnglishName": "Sonora",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "TAB",
+    "LocalizedName": "Tabasco",
+    "EnglishName": "Tabasco",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "TAM",
+    "LocalizedName": "Tamaulipas",
+    "EnglishName": "Tamaulipas",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "TLA",
+    "LocalizedName": "Tlaxcala",
+    "EnglishName": "Tlaxcala",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "VER",
+    "LocalizedName": "Veracruz",
+    "EnglishName": "Veracruz",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "YUC",
+    "LocalizedName": "Yucatán",
+    "EnglishName": "Yucatán",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  },
+  {
+    "ID": "ZAC",
+    "LocalizedName": "Zacatecas",
+    "EnglishName": "Zacatecas",
+    "Level": 1,
+    "LocalizedType": "State",
+    "EnglishType": "State",
+    "CountryID": "MX"
+  }
+]

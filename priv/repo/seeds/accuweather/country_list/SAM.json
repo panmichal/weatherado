@@ -1,0 +1,77 @@
+[
+  {
+    "ID": "AR",
+    "LocalizedName": "Argentina",
+    "EnglishName": "Argentina"
+  },
+  {
+    "ID": "BO",
+    "LocalizedName": "Bolivia",
+    "EnglishName": "Bolivia"
+  },
+  {
+    "ID": "BR",
+    "LocalizedName": "Brazil",
+    "EnglishName": "Brazil"
+  },
+  {
+    "ID": "CL",
+    "LocalizedName": "Chile",
+    "EnglishName": "Chile"
+  },
+  {
+    "ID": "CO",
+    "LocalizedName": "Colombia",
+    "EnglishName": "Colombia"
+  },
+  {
+    "ID": "EC",
+    "LocalizedName": "Ecuador",
+    "EnglishName": "Ecuador"
+  },
+  {
+    "ID": "FK",
+    "LocalizedName": "Falkland Islands",
+    "EnglishName": "Falkland Islands"
+  },
+  {
+    "ID": "GF",
+    "LocalizedName": "French Guiana",
+    "EnglishName": "French Guiana"
+  },
+  {
+    "ID": "GS",
+    "LocalizedName": "South Georgia and South Sandwich Islands",
+    "EnglishName": "South Georgia and South Sandwich Islands"
+  },
+  {
+    "ID": "GY",
+    "LocalizedName": "Guyana",
+    "EnglishName": "Guyana"
+  },
+  {
+    "ID": "PE",
+    "LocalizedName": "Peru",
+    "EnglishName": "Peru"
+  },
+  {
+    "ID": "PY",
+    "LocalizedName": "Paraguay",
+    "EnglishName": "Paraguay"
+  },
+  {
+    "ID": "SR",
+    "LocalizedName": "Suriname",
+    "EnglishName": "Suriname"
+  },
+  {
+    "ID": "UY",
+    "LocalizedName": "Uruguay",
+    "EnglishName": "Uruguay"
+  },
+  {
+    "ID": "VE",
+    "LocalizedName": "Venezuela",
+    "EnglishName": "Venezuela"
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "ID": "AG",
+    "LocalizedName": "Antigua and Barbuda",
+    "EnglishName": "Antigua and Barbuda"
+  },
+  {
+    "ID": "AI",
+    "LocalizedName": "Anguilla",
+    "EnglishName": "Anguilla"
+  },
+  {
+    "ID": "AW",
+    "LocalizedName": "Aruba",
+    "EnglishName": "Aruba"
+  },
+  {
+    "ID": "BB",
+    "LocalizedName": "Barbados",
+    "EnglishName": "Barbados"
+  },
+  {
+    "ID": "BL",
+    "LocalizedName": "Saint Barthelemy",
+    "EnglishName": "Saint Barthelemy"
+  },
+  {
+    "ID": "BQ",
+    "LocalizedName": "Bonaire",
+    "EnglishName": "Bonaire"
+  },
+  {
+    "ID": "BS",
+    "LocalizedName": "The Bahamas",
+    "EnglishName": "The Bahamas"
+  },
+  {
+    "ID": "BZ",
+    "LocalizedName": "Belize",
+    "EnglishName": "Belize"
+  },
+  {
+    "ID": "CR",
+    "LocalizedName": "Costa Rica",
+    "EnglishName": "Costa Rica"
+  },
+  {
+    "ID": "CU",
+    "LocalizedName": "Cuba",
+    "EnglishName": "Cuba"
+  },
+  {
+    "ID": "CW",
+    "LocalizedName": "Curacao",
+    "EnglishName": "Curacao"
+  },
+  {
+    "ID": "DM",
+    "LocalizedName": "Dominica",
+    "EnglishName": "Dominica"
+  },
+  {
+    "ID": "DO",
+    "LocalizedName": "Dominican Republic",
+    "EnglishName": "Dominican Republic"
+  },
+  {
+    "ID": "GD",
+    "LocalizedName": "Grenada",
+    "EnglishName": "Grenada"
+  },
+  {
+    "ID": "GP",
+    "LocalizedName": "Guadeloupe",
+    "EnglishName": "Guadeloupe"
+  },
+  {
+    "ID": "GT",
+    "LocalizedName": "Guatemala",
+    "EnglishName": "Guatemala"
+  },
+  {
+    "ID": "HN",
+    "LocalizedName": "Honduras",
+    "EnglishName": "Honduras"
+  },
+  {
+    "ID": "HT",
+    "LocalizedName": "Haiti",
+    "EnglishName": "Haiti"
+  },
+  {
+    "ID": "JM",
+    "LocalizedName": "Jamaica",
+    "EnglishName": "Jamaica"
+  },
+  {
+    "ID": "KN",
+    "LocalizedName": "Saint Kitts and Nevis",
+    "EnglishName": "Saint Kitts and Nevis"
+  },
+  {
+    "ID": "KY",
+    "LocalizedName": "Cayman Islands",
+    "EnglishName": "Cayman Islands"
+  },
+  {
+    "ID": "LC",
+    "LocalizedName": "Saint Lucia",
+    "EnglishName": "Saint Lucia"
+  },
+  {
+    "ID": "MF",
+    "LocalizedName": "Saint Martin",
+    "EnglishName": "Saint Martin"
+  },
+  {
+    "ID": "MQ",
+    "LocalizedName": "Martinique",
+    "EnglishName": "Martinique"
+  },
+  {
+    "ID": "MS",
+    "LocalizedName": "Montserrat",
+    "EnglishName": "Montserrat"
+  },
+  {
+    "ID": "NI",
+    "LocalizedName": "Nicaragua",
+    "EnglishName": "Nicaragua"
+  },
+  {
+    "ID": "PA",
+    "LocalizedName": "Panama",
+    "EnglishName": "Panama"
+  },
+  {
+    "ID": "PR",
+    "LocalizedName": "Puerto Rico",
+    "EnglishName": "Puerto Rico"
+  },
+  {
+    "ID": "SV",
+    "LocalizedName": "El Salvador",
+    "EnglishName": "El Salvador"
+  },
+  {
+    "ID": "SX",
+    "LocalizedName": "Sint Maarten",
+    "EnglishName": "Sint Maarten"
+  },
+  {
+    "ID": "TC",
+    "LocalizedName": "Turks and Caicos Islands",
+    "EnglishName": "Turks and Caicos Islands"
+  },
+  {
+    "ID": "TT",
+    "LocalizedName": "Trinidad and Tobago",
+    "EnglishName": "Trinidad and Tobago"
+  },
+  {
+    "ID": "VC",
+    "LocalizedName": "Saint Vincent and the Grenadines",
+    "EnglishName": "Saint Vincent and the Grenadines"
+  },
+  {
+    "ID": "VG",
+    "LocalizedName": "British Virgin Islands",
+    "EnglishName": "British Virgin Islands"
+  },
+  {
+    "ID": "VI",
+    "LocalizedName": "US Virgin Islands",
+    "EnglishName": "US Virgin Islands"
+  }
+]
