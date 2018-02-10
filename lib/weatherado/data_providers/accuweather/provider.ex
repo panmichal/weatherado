@@ -10,13 +10,24 @@ defmodule Weatherado.DataProviders.Accuweather.Provider do
   def current_conditions(location_id) do
     "http://dataservice.accuweather.com/currentconditions/v1/" <> location_id
     |> url_authentication(@apikey)
-    |> HTTPoison.get!()
-    |> Map.get(:body)
-    |> Poison.decode!(as: [%CurrentConditions{}])
+    |> HTTPoison.get!
+    |> decode_response
   end
 
   defp url_authentication(base_url, apikey) do
     base_url <> "?apikey=" <> apikey
+  end
+
+  defp decode_response(%HTTPoison.Response{status_code: 200, body: body}) do
+    case decoded = Poison.decode(body, as: [%CurrentConditions{}]) do
+      {:ok, [%CurrentConditions{}]} -> decoded
+      _ -> {:error, :err_accuweather_decode_response}
+    end
+  end
+  
+  defp decode_response(%HTTPoison.Response{status_code: code, body: body}) do
+    Logger.error("An error ocurred when fetching current conditions from Accuweather. Status code: #{inspect code}. Body: #{inspect body}")
+    {:error, :err_accuweather_get}
   end
   
 end
