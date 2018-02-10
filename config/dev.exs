@@ -56,5 +56,4 @@ config :weatherado, Weatherado.Repo,
   hostname: "localhost",
   pool_size: 10
 
-config :weatherado, Weatherado.DataProviders.Auccuweather,
-  apikey: "SECRET"
+import_config "dev.secret.exs"
