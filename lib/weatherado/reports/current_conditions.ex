@@ -23,7 +23,6 @@ require Logger
     defp get_from_cache(id) do
         cached = Amnesia.transaction do
           selection = Cache.CurrentConditions.where(location_id == id)
-
           selection |> Amnesia.Selection.values
         end
 

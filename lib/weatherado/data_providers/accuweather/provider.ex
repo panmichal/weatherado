@@ -7,12 +7,14 @@ defmodule Weatherado.DataProviders.Accuweather.Provider do
 
   @apikey Application.get_env(:weatherado, Weatherado.DataProviders.Auccuweather)[:apikey]
 
-  def current_conditions(location_id) do
+  def current_conditions(location_id) when is_binary(location_id) do
     "http://dataservice.accuweather.com/currentconditions/v1/" <> location_id
     |> url_authentication(@apikey)
     |> HTTPoison.get!
     |> decode_response
   end
+
+  def current_conditions(_), do: {:error, :location_id_not_string}
 
   defp url_authentication(base_url, apikey) do
     base_url <> "?apikey=" <> apikey
