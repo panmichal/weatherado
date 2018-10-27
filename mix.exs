@@ -42,7 +42,8 @@ defmodule Weatherado.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:httpoison, "~> 1.0"},
-      {:amnesia, "~> 0.2.7"}
+      {:amnesia, "~> 0.2.7"},
+      {:distillery, "~> 2.0"}
     ]
   end
 
