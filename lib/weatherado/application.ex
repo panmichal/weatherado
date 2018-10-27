@@ -13,7 +13,8 @@ defmodule Weatherado.Application do
       # Start the endpoint when the application starts
       supervisor(WeatheradoWeb.Endpoint, []),
       # Start your own worker by calling: Weatherado.Worker.start_link(arg1, arg2, arg3)
-      worker(Weatherado.Cache.ETS.Registry, [])
+      worker(Weatherado.Cache.ETS.Registry, []),
+      worker(Weatherado.Worker.CurrentConditionsWorker, [])
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
