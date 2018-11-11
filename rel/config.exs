@@ -50,5 +50,8 @@ release :weatherado do
   set applications: [
     :runtime_tools
   ]
+  set commands: [
+    amnesia_create: "rel/commands/mnesia_create"
+  ]
 end
 
