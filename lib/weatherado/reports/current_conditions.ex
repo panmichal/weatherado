@@ -29,6 +29,7 @@ require Logger
         case cached do
             [] -> []
             [conditions] -> %Weatherado.Structs.CurrentConditions{temperature: %Temperature{unit: Map.get(conditions, :unit), value: Map.get(conditions, :temperature)}}
+            :badarg -> []
         end
     end
 
