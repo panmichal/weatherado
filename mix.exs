@@ -20,7 +20,7 @@ defmodule Weatherado.Mixfile do
   def application do
     [
       mod: {Weatherado.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :edeliver]
     ]
   end
 
@@ -44,6 +44,7 @@ defmodule Weatherado.Mixfile do
       {:httpoison, "~> 1.0"},
       {:amnesia, github: "meh/amnesia", branch: "master", override: true},
       {:exquisite, github: "meh/exquisite", branch: "master", override: true},
+      {:edeliver, ">= 1.6.0"},
       {:distillery, "~> 2.0"}
     ]
   end
