@@ -22,12 +22,11 @@ require Logger
 
     defp get_from_cache(id) do
         cached = Amnesia.transaction do
-          selection = Cache.CurrentConditions.where(location_id == id)
-          selection |> Amnesia.Selection.values
+           Cache.CurrentConditions.match([location_id: id]) |> Amnesia.Selection.values
         end
-
         case cached do
             [] -> []
+            nil -> []
             [conditions] -> %Weatherado.Structs.CurrentConditions{temperature: %Temperature{unit: Map.get(conditions, :unit), value: Map.get(conditions, :temperature)}}
             :badarg -> []
         end
