@@ -45,7 +45,9 @@ defmodule Weatherado.Mixfile do
       {:amnesia, github: "meh/amnesia", branch: "master", override: true},
       {:exquisite, github: "meh/exquisite", branch: "master", override: true},
       {:edeliver, ">= 1.6.0"},
-      {:distillery, "~> 2.0"}
+      {:distillery, "~> 2.0"},
+      {:absinthe, "~> 1.4"},
+      {:absinthe_plug, "~> 1.4.0"}
     ]
   end
 
