@@ -15,10 +15,18 @@ require Logger
                     |> Provider.current_conditions
                     |> Parser.parse
                     |> add_to_cache(location_id)
-                    |> IO.inspect
             result -> {:ok, result}
         end            
     end
+
+    def get_all() do
+        Amnesia.transaction do
+            keys = Cache.CurrentConditions.keys
+            Enum.map(keys, fn key -> get_struct(Cache.CurrentConditions.read(key)) |> Map.get(:temperature) end)
+        end
+    end
+
+    defp get_struct(conditions), do: %Weatherado.Structs.CurrentConditions{temperature: %Temperature{unit: Map.get(conditions, :unit), value: Map.get(conditions, :temperature)}}
 
     defp get_from_cache(id) do
         cached = Amnesia.transaction do
@@ -40,7 +48,7 @@ require Logger
                 location_id: location_id
             }
             
-            Logger.info "Writing to cache #{inspect cache_content}"
+            #Logger.info "Writing to cache #{inspect cache_content}"
             cache_content
             |> Cache.CurrentConditions.write
         end
